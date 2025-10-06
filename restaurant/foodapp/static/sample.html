@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vitchu Restaurant</title>
+ <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    body {
+      background-color: #fafaf9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #fbde05;
+      text-align: center;
+      padding: 7px 0;
+     
+    }
+
+   
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5em;
+      color: #502e2c;
+      margin-top: 7px;
+    }
+
+    nav {
+      background-color:  #0a0a0a;
+      display: flex;
+      justify-content: center;
+      gap: 7px;
+      padding: 7px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 5px 15px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 7px 7px;
+      border-radius: 8px;
+      margin: 7px auto;
+      max-width: 1000px;
+    }
+
+    .hero h2 {
+      font-size: 3em;
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      max-width: 700px;
+      margin: auto;
+      font-size: 1.2em;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 5px;
+      border-radius: 8px;
+      line-height: 1.8;
+    }
+
+    .sections {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin: 10px auto;
+      max-width: 1000px;
+      gap: 20px;
+    }
+
+    .section {
+      background-color: #fff;
+      border-radius: 20px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      flex: 1;
+      min-width: 280px;
+      padding: 10px;
+      transition: transform 0.3s;
+    }
+
+    .section:hover {
+      transform: translateY(-5px);
+    }
+
+    .section h3 {
+      font-family: 'Playfair Display', serif;
+      color: #f61e1e;
+      margin-bottom: 5px;
+    }
+
+    .section img {
+      width: 100%;
+      height: 180px;
+      border-radius: 8px;
+      object-fit: cover;
+      margin-bottom: 5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 50px;
+      background-color: #ebeb09;
+      color: white;
+      margin-top: 20px;
+    }
+    .logo-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+
+.logo-title img {
+  height: 50px;
+}
+
+.logo-title h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5em;
+  color: #970909;
+  margin: 0;
+}
+
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo-title">
+    <img src="https://thumbs.dreamstime.com/z/restaurant-logo-letter-v-concept-letter-v-logo-chef-hat-spoon-fork-restaurant-logo-letter-v-concept-letter-v-logo-263450848.jpg" alt="VITCHU RESTAURANT" />
+    <h1>VITCHU RESTAURANT</h1>
+    <img src="https://tse4.mm.bing.net/th/id/OIP.75_EhzrXvLCJUv-wA0mwxQHaFz?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3">
+  </div>
+</header>
+
+
+  <nav>
+   
+    <a href="food.html">Menu</a>
+    <a href="trial.html">Administration</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+
+  <section class="hero">
+    <h2>25% Off This Weekend</h2>
+    <p>
+      Serving bold flavors and fresh ingredients.<br>
+      We're your go-to spot for great eats and good vibes.<br>
+      Locally loved, globally inspired.<br>
+      Welcome to food that feels like home.
+    </p>
+  </section>
+
+  <div class="sections">
+
+    <div class="section">
+      <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=600&q=80" alt="New Menu">
+      <h3>Our New Menu</h3>
+      <p>Explore delicious new dishes added by our chefs. Fresh, seasonal, and full of flavor!</p>
+    </div>
+
+    <div class="section">
+      <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=600&q=80" alt="Book a Table">
+      <h3>Book a Table</h3>
+      <p>Reserve your favorite spot online in just a few clicks. We're excited to serve you!</p>
+    </div>
+
+    <div class="section">
+      <img src="https://images.unsplash.com/photo-1498654896293-37aacf113fd9?auto=format&fit=crop&w=600&q=80" alt="Opening Hours">
+      <h3>Opening Hours</h3>
+      <p>Mon - Fri: 10am - 10pm<br>Sat - Sun: 9am - 11pm</p>
+    </div>
+
+  </div>
+<footer style="display: flex; justify-content: space-between; align-items: center; padding: 10px; background-color: #050505; color: white; margin-top: 50px; max-width: 10000px; margin-left:auto; margin-right:auto;">
+  <div></div> 
+  <div style="text-align:center;">&copy; 2025 Vitchu Restaurant. All Rights Reserved.</div>
+  <div style="text-align:right;">Created by Ishwarya.M</div>
+</footer>
+
+
+</body>
+</html> 
+
+

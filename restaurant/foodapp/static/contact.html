@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff8f0;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #f60303;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .container {
+      width: 90%;
+      max-width: 600px;
+      margin: 30px auto;
+      background-color: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    nav {
+      background: #333;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    h2 {
+      text-align: center;
+      color: #f60303;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      color: #333;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      display: block;
+      width: 100%;
+      background-color: #f60303;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #e5533c;
+    }
+    .info {
+      margin-top: 20px;
+      text-align: center;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Vitchu Restaurant's Foodies</h1>
+    <p>We'd love to hear from you!</p>
+  </header>
+<nav>
+    <a href="sample.html">Home</a>
+    <a href="food.html">Menu</a>
+    
+    <a href="trial.html">Administrator</a>
+  </nav>
+  <div class="container">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" rows="4" placeholder="Write your message..." required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="info">
+      <p>📍 123 Food Street, Chennai</p>
+      <p>📞 +91 98765 43210</p>
+      <p>✉ contact@vitchurestaurant.com</p>
+      <p>Open: Mon–Sun, 10 AM – 11 PM</p>
+    </div>
+  </div>
+</body>
+</html>
